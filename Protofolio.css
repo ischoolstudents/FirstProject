@@ -1,0 +1,71 @@
+:root{
+    --main_blue: rgb(0,0,255);
+    --main_black: rgb(0,0,0);
+    --main_darkblue: rgb(0,0,139);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--main_black);
+    background-color: var(--main_blue);
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+a{
+    color: var(--main_black);
+    text-decoration: none;
+    font-size: large;
+    margin-right: 10px;
+}
+.Main{
+margin: auto;
+width: 50%;
+margin-top: 30px;
+}
+h2{
+    color: var(--main_blue);
+    font-size: x-large;
+}
+.Card{
+    border: 1px solid var(--main_black);
+    background-color: var(--main_darkblue);
+    padding: 25px 25px 25px 25px;
+    width: 150px
+}
+.Card:hover{
+    transform: scale(1.1);
+}
+.Cards{
+    display: flex;
+    justify-content: center;
+}
+.Skills{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Projects{
+    background-color: var(--main_darkblue);
+    padding: 50px 50px 50px 50px;
+    margin-top: 40px;
+    border: 5px solid var(--main_black);
+    border-radius: 50px;
+}
+.Project_Title{
+    text-align: center;
+    color: var(--main_blue);
+}
+.Projects_Cards{
+display: flex;
+flex-wrap: wrap;
+}
+.Project_Card{
+    width: 300px;
+    border: 5px solid var(--main_black);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Project_Card img{
+    width: 300px;
+}
